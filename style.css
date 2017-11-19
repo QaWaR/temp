@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    min-height: 5000px;
+}
+.buton {
+    background: #bada55;
+    color: #000;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.5);
+    transition: linear 0.3s;
+    position: fixed;
+    top:50%;
+    left: 15%;
+    z-index: 1;
+}
+
+.buton:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -10px)
+}
+
+.filter{
+    background-image: url("img/slika.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 768px;
+    filter: brightness(50%) blur(2px) contrast(50%) grayscale(50%) invert(100%) opacity(70%) saturate(300%) sepia(50%) hue-rotate(1000deg) drop-shadow(0 0 30px black);
+    filter: brightness(50%);
+    filter: blur(2px);
+    filter: contrast(50%);
+    filter: grayscale(50%);
+    filter: invert(100%);
+    filter: opacity(70%);
+    filter: saturate(300%);
+    filter: sepia(50%);
+    filter: hue-rotate(1000deg);
+    filter: drop-shadow(0 0 30px black);
+    border: 5px solid black;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
